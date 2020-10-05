@@ -1,11 +1,18 @@
+
 * a {
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
+    
     background-image: url('https://i.pinimg.com/originals/6e/54/41/6e5441ed49eab12bbcbbc126c4d15919.jpg');
 }
 
+
+.row{
+ text-align: center;  
+    
+}
 .header {
     width: 100%;
     margin: 2em auto;
@@ -75,9 +82,7 @@ body {
     box-shadow: 10px 10px #00000025;
 }
 
-.repositories {
-    align-items: center;
-}
+
 .item {
     text-align: center;
     height: 20em;
