@@ -2,7 +2,7 @@
 Website that list some hacktoberfest repositories
 
 ## Preview
-You can acess the site in this [link]().
+You can acess the site in this [link](https://leonardozanotti.github.io/hacktoberfest-repositories/).
 
 ## Contributing
 If you want to contribute, just fork this repo and do your PR.
