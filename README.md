@@ -1,4 +1,4 @@
-# hacktoberfest-repositories
+# Hacktoberfest repositories
 Website that list some hacktoberfest repositories
 
 ## Preview
