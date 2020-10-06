@@ -11,6 +11,7 @@ body {
 
 .row{
  text-align: center;  
+ padding-left: 8rem;
     
 }
 .header {
@@ -72,7 +73,7 @@ body {
 }
 
 .github a h2 {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 .github img {
@@ -86,7 +87,7 @@ body {
 .item {
     text-align: center;
     height: 20em;
-    margin: 3em 1.5em;
+    margin: 3em 1.5rem;
 }
 
 .item a {
