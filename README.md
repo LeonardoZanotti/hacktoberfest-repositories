@@ -1,3 +1,4 @@
+![Image of Hacktoberfest](https://github.com/kartikagarwal9/hacktoberfest-repositories/blob/main/hacktoberfest.png)
 # Hacktoberfest repositories
 Website that list some hacktoberfest repositories
 
