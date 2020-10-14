@@ -91,13 +91,13 @@ body {
     animation: bottom-rainbow 1s linear infinite;
 }
 
-.item a:hover img { /*.image */
+.item a:hover img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
     filter: grayscale(0);
 }
 
-.item a:hover h3 { /* .title */
+.item a:hover h3 {
     color: inherit;
 } 
 
