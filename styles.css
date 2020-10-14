@@ -81,7 +81,25 @@ body {
 
 .item a {
     text-decoration: none;
+    display: block;
+    background-repeat: no-repeat;
+    padding: 12px 0;
+    height: 100%;
 }
+
+.item a:hover {
+    animation: bottom-rainbow 1s linear infinite;
+}
+
+.item a:hover img { /*.image */
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+
+.item a:hover h3 { /* .title */
+    color: inherit;
+} 
 
 .item .title h3 {
     color: #a3c3d3;
@@ -95,6 +113,12 @@ body {
     max-width: 100%;
     height: 75%;
     margin: auto 0;
+    object-fit: contain;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    filter: grayscale(1);
 }
 
  @keyframes border-rainbow {
@@ -174,6 +198,79 @@ body {
             linear-gradient(115deg, #0ea2dd, #0ea2dd);
         color: #800ff0;
         padding: 0.4em 0.1em 0.4em 0em;
+	}
+}
+
+@keyframes bottom-rainbow {
+    0%,
+	100% {
+        background-size: 100% 6px;
+
+	    background-position: 0 calc(100% - 10px);
+
+		background-image: linear-gradient(
+				115deg,
+				#10cf40,
+				#f8ce25,
+				#800ff0,
+				#0ea2dd
+			),
+			linear-gradient(115deg, #0ea2dd, #0ea2dd),
+			linear-gradient(115deg, #10cf40, #f8ce25, #800ff0, #0ea2dd),
+            linear-gradient(115deg, #10cf40, #44ce7b);
+        color: linear-gradient(
+            115deg,
+            #f8ce25,
+            #800ff0,
+            #0ea2dd,
+            #10cf40
+        ),
+        linear-gradient(115deg, #10cf40, #10cf40),
+        linear-gradient(115deg, #f8ce25, #800ff0, #0ea2dd, #10cf40),
+        linear-gradient(115deg, #f8ce25, #f8ce25);
+        color: #0ea2dd;
+	}
+
+	25% {
+		background-image: linear-gradient(
+				115deg,
+				#f8ce25,
+				#800ff0,
+				#0ea2dd,
+				#10cf40
+			),
+			linear-gradient(115deg, #10cf40, #10cf40),
+			linear-gradient(115deg, #f8ce25, #800ff0, #0ea2dd, #10cf40),
+            linear-gradient(115deg, #f8ce25, #f8ce25);
+        color: #10cf40;
+	}
+
+	50% {
+		background-image: linear-gradient(
+				115deg,
+				#800ff0,
+				#0ea2dd,
+				#10cf40,
+				#f8ce25
+			),
+			linear-gradient(115deg, #f8ce25, #f8ce25),
+			linear-gradient(115deg, #800ff0, #0ea2dd, #10cf40, #f8ce25),
+            linear-gradient(115deg, #800ff0, #800ff0);
+        color: #f8ce25;
+	}
+
+	75% {
+		background-image: linear-gradient(
+				115deg,
+				#0ea2dd,
+				#10cf40,
+				#f8ce25,
+				#800ff0
+			),
+			linear-gradient(115deg, #800ff0, #800ff0),
+			linear-gradient(115deg, #0ea2dd, #10cf40, #f8ce25, #800ff0),
+            linear-gradient(115deg, #0ea2dd, #0ea2dd);
+        color: #800ff0;
 	}
 }
 
