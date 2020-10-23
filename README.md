@@ -1,6 +1,10 @@
 ![Image of Hacktoberfest](https://github.com/kartikagarwal9/hacktoberfest-repositories/blob/main/hacktoberfest.png)
 # Hacktoberfest repositories
-Website that list some hacktoberfest repositories
+## Websites that list some hacktoberfest repositories
+
+* [Awesome Open Source](https://awesomeopensource.com/projects/hacktoberfest)
+* [devSwag](https://devswag.io/?tags=hacktoberfest)
+* [Hacktoberfest 2020 Swag List](https://hacktoberfestswaglist.com/)
 
 ## Preview
 You can acess the site in this [link](https://leonardozanotti.github.io/hacktoberfest-repositories/).
